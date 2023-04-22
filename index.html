@@ -99,7 +99,7 @@
                   </svg>
                 </span>
               </label>
-              <label class="modal-label checkbox-label">
+              <label class="modal-label textarea-label">
                 Commeent
                 <textarea
                   name="comment"
@@ -107,7 +107,7 @@
                   placeholder="Text input"
                 ></textarea>
               </label>
-              <label class="modal-label">
+              <label class="modal-checkbox">
                 <input class="checkbox" type="checkbox" name="policy" />
                 <span class="checkbox-icon"></span>
                 <span class="checkbox-text">I accept the terms and conditions of the <a href=""> Privacy Policy</a></span>
@@ -459,13 +459,14 @@
         </div>
         <div class="footer-subscribe">
           <p class="social-text">Subscribe</p>
-          <form>
-            <label class="footer-label">
+          <form class="footer-form">
+            
               <input
                 class="footer-input"
                 type="email"
                 name="email"
                 placeholder="E-mail"
+                aria-label="email"
               />
               <button type="submit">
                 Subscribe
@@ -473,7 +474,6 @@
                   <use href="./images/icon.svg#icon-icon-send"></use>
                 </svg>
               </button>
-            </label>
           </form>
         </div>
       </div>
